@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> --> 
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="App.css">
+    <title>Smitesh Hadape</title>
+  </head>
+  <body>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+
+    <div id="root">
+        <div class="App">
+            <div class="Header">
+              <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"> -->
+                <img src="logo.png" alt="Logo"></img>
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                  <div class="burger">
+                    <div class="burger-bar"></div>
+                    <div class="burger-bar"></div>
+                    <div class="burger-bar"></div>
+                  </div>
+                </a>
+            </div>
+            <ul id="slide-out" class="sidenav">
+              <li><a class="waves-effect burger-extension burger-options" href="#Home">Home</a></li>
+              <li><div class="divider"></div></li>
+              <li><a class="waves-effect burger-extension burger-options" href="#About">About</a></li>
+              <li><div class="divider"></div></li>
+              <li><a class="waves-effect burger-extension burger-options" href="#Projects">Projects</a></li>
+              <li><div class="divider"></div></li>
+              <li><a class="waves-effect burger-extension burger-options" href="#Resume">Resume</a></li>
+              <li><div class="divider"></div></li>
+            </ul>
+
+            <div class="Main">
+                <div class="Left" id="Menu">
+                    <ul class="navbar">
+                        <div id="first"><li><a data-menuanchor="Home" href="#Home">Home</a></li></div>
+                        <div id="second"><li><a data-menuanchor="About"  href="#About">About</a></li></div>
+                        <div id="third"><li><a data-menuanchor="Projects" href="#Projects">Projects</a></li></div>
+                        <div id="fourth"><li><a data-menuanchor="Resume" href="#Resume">Resume</a></li></div>
+                    </ul>
+                </div>
+                <div class="Main-center" id="fullpage">
+                <div class="section s1 Center Home ">
+                    <div class="Main-hi">HI; I’M</div>
+                    <div class="Main-name">SMITESH HADAPE</div>
+                    <img class="Main-pic" src="Pic.png" alt="Pic">
+                </div>
+                <div class="section s2 Center About">
+                  <div class="about-head">ABOUT</div>
+                  <div class="about-main">
+                    <div class="about-main-1">I'm a student and have interest in Designing and Web Development. I'm currently studying Information Technology in the Indian Institute of Information Technology, Allahabad. I am from Nashik, Maharashtra. I've done my schooling from Horizon Academy,Nashik .</div><br>
+                    <div class="about-main-2">Currently I'm exploring more in Design related fields. Also my pastime includes watching web series and movies. I know programming languages like C, C++, Java, Python,  HTML, CSS, NodeJS, Javascript and its frameworks like ReactJS, PixiJS.</div>
+                  </div>  
+                </div>
+                <div class="section s3 Center Projects">
+                <div class="Projects-head">
+                  <p>PROJECTS</p>
+                </div>
+
+                <div class="Projects-main">
+
+                    <section class="variable slider">
+                      <div>
+                        <a href="https://www.figma.com/file/Jszaa2y7stZZ6F3eHGsNK6/KisaanBazaar?node-id=1%3A2">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/kisaanbazaar.svg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">Kisaan Bazaar</span>
+                                <p>An organic B2B app design made in a 3 days hackathon</p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                      </a>
+                      </div>
+
+                      <div>
+                        <a href="https://www.figma.com/file/nHI5V2tv77gHUqnjWp3QGw/HINT?node-id=4%3A475">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/hint.png">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">CropAllot</span>
+                                <p>An app design for crop allotment app</p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                        </a>  
+                      </div>
+
+                      <div>
+                        <a href="https://drive.google.com/file/d/1urrghO6v1L5jwvxqgn_i-vR94Cx474r9/view?usp=sharing">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/OOMProject.jpg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">Mini bank app</span>
+                                <p>Was a college assignment so kept the design basic</p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                        </a>  
+                      </div>
+
+                      <div>
+                        <a href="https://drive.google.com/file/d/1AIBFKPaNSE2P4h40cTPBQ34KJ6a0ea0n/view?usp=sharing">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/Bhacks.svg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">BHacks Logo</span>
+                                <p>A Hackathon logo</p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                        </a>  
+                      </div>
+
+                      <div>
+                        <a href="https://drive.google.com/file/d/1W6V6MQGFvt_BS_Lgf_IHEfJqO5vaJ7K5/view?usp=sharing">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/capta.svg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">Digital Sketch</span>
+                                <p></p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                        </a>  
+                      </div>
+
+                      <div>
+                        <a href="https://drive.google.com/file/d/1e4A-gZ9IrpRqhOcy5ZWnl-GC5Fp3KDWz/view?usp=sharing">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/pigeon.jpg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">Chat App Logo</span>
+                                <p></p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                        </a>  
+                      </div>
+                      <div>
+                        <a href="https://drive.google.com/file/d/1Jt_hO2FqMbJjYO6pWf9g9s7bDaIG5mYb/view?usp=sharing">
+                        <div class="row">
+                          <div class="col s12 m7">
+                            <div class="card small" style="width: 250px;">
+                              <div class="card-image">
+                                <img src="./projects/daynighteffect.jpg">
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title">Image Transition</span>
+                                <p></p>
+                                
+                              </div>
+                            </div>
+                            
+                          </div>
+                          
+                        </div>
+                        </a>  
+                      </div>
+                      
+                    </section>
+
+
+                </div>
+
+                <!-- <div class="Projects-buttons">
+                  <div class="Projects-button1">Designs</div>
+                  <div class="Projects-button1">Other</div>
+              </div> -->
+                </div>
+                  <div class="section s4 Center Resume">
+                    <div class="Resume-head">RESUME</div>
+                    <a href="https://drive.google.com/file/d/14FkK2rve1-L8zX44GdkoPceZdtixwo7y/view?usp=sharing">
+                      <div class="Resume-button">Drive Link</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="Right">
+            
+                </div>
+                </div>
+
+
+
+
+                <div class="Footer">
+                    <ul class="logos">
+                    <li><a href="https://github.com/Smitesh25"><img src="./logos/1.png" alt="logo"></a></li>
+                    <li><a href="https://www.facebook.com/smitesh.hadape.3/"><img src="./logos/2.png" alt="logo"></a></li>
+                    <li><a href="https://www.instagram.com/herewith_smith/"><img src="./logos/3.png" alt="logo"></a></li>
+                    <li><a href="mailto:iit2019090@iiita.ac.in"><img src="./logos/4.png" alt="logo"></a></li>
+                    <li><a href="https://www.behance.net/smiteshhadape/"><img src="./logos/5.png" alt="logo"></a></li>
+                    <li><a href="https://www.linkedin.com/in/smiteshhadape/"><img src="./logos/6.png" alt="logo"></a></li>
+                    </ul>
+                </div>
+          </div>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    
+    new fullpage('#fullpage',{
+        autoScrolling:true,
+          navigation:true,
+        anchors:['Home','About','Projects','Resume'],
+        menu: '#Menu',
+       // navigationTooltips:['Home','About','Projects','Resume'],
+      //  showActiveTooltip:true
+      scrollingSpeed:500
+    });
+    $('#first').addClass("active");
+    $(document).on('click','.navbar div',function(){
+      $(this).addClass('active').siblings().removeClass('active')
+    });
+
+    $(document).on('ready', function() {
+  $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true,
+        
+      });
+  });
+  $(document).ready(function(){
+    $('.sidenav')
+        .sidenav()
+        .on('click tap', 'li a', () => {
+            $('.sidenav').sidenav('close');
+        });
+});
+    </script>
+  </body>
+</html>
