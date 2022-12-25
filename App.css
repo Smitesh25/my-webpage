@@ -299,8 +299,11 @@ html{
     background-color: #FCDA3A;
     height: 80%;
 }
-
-
+.projects-gif lottie-player{
+    margin: auto;
+    width: 60vw;
+    height: 60vh;
+}
 
 
 
